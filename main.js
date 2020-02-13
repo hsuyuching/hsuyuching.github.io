@@ -74,7 +74,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar [language]=\"language\" (setLanguage)=\"setLanguageHandler($event)\"></app-navbar>\r\n<div style=\"height:60px; width:100%; clear:both;\"></div>\r\n<app-profile [language]=\"language\"></app-profile>\r\n<app-jumbotron id=\"work\" section=\"work\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-work class=\"col-md-6 my-4\" name=\"logi\"></app-work>\r\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"umtri\"></app-work>\r\n    <app-work class=\"col-md-6 my-4\" name=\"clinc\"></app-work> -->\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"education\" section=\"education\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-education class=\"col-md-6\" name=\"uu\" [language]=\"language\"></app-education>\r\n    <app-education class=\"col-md-6\" name=\"yzu_ms\" [language]=\"language\"></app-education>\r\n    <app-education class=\"col-md-6\" name=\"yzu_bs\" [language]=\"language\"></app-education>\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"projects\" section=\"projects\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-project class=\"col-md-6\" name=\"p4\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p3\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p2\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p1\" [language]=\"language\"></app-project>\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"skills\" section=\"skills\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container text-center\">        \r\n  <div class=\"row\">\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"lang\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"database\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"web\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"tool\"></app-skill>\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"biography\" section=\"biography\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-biography [language]=\"language\"></app-biography>\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"hobbies\" section=\"hobbies\" [language]=\"language\"></app-jumbotron>\r\n<app-hobby></app-hobby>"
+module.exports = "<app-navbar [language]=\"language\" (setLanguage)=\"setLanguageHandler($event)\"></app-navbar>\r\n<div style=\"height:60px; width:100%; clear:both;\"></div>\r\n<app-profile [language]=\"language\"></app-profile>\r\n<app-jumbotron id=\"work\" section=\"work\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-work class=\"col-md-6 my-4\" name=\"logi\"></app-work>\r\n    <app-work class=\"col-md-6 my-4\" name=\"itri\"></app-work>\r\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"clinc\"></app-work> -->\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"education\" section=\"education\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-education class=\"col-md-6\" name=\"uu\" [language]=\"language\"></app-education>\r\n    <app-education class=\"col-md-6\" name=\"yzu_ms\" [language]=\"language\"></app-education>\r\n    <app-education class=\"col-md-6\" name=\"yzu_bs\" [language]=\"language\"></app-education>\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"projects\" section=\"projects\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-project class=\"col-md-6\" name=\"p4\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p3\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p2\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p1\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p5\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p6\" [language]=\"language\"></app-project>\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"skills\" section=\"skills\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container text-center\">        \r\n  <div class=\"row\">\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"lang\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"library\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"web\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"tool\"></app-skill>\r\n  </div>\r\n</div>\r\n<!-- <app-jumbotron id=\"biography\" section=\"biography\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-biography [language]=\"language\"></app-biography>\r\n  </div>\r\n</div> -->\r\n<app-jumbotron id=\"hobbies\" section=\"hobbies\" [language]=\"language\"></app-jumbotron>\r\n<app-hobby></app-hobby>"
 
 /***/ }),
 
@@ -332,27 +332,24 @@ var EducationComponent = /** @class */ (function () {
         yzu_ms.setGPAScale('out of 4.0');
         yzu_bs.setGPAScale('out of 4.0');
         uu.setCourses([
-            'Operating Systems',
-            'Database Management Systems',
-            'Machine Learning',
-            'Self-Driving Car',
-            'Big Data Systems',
-            'Matrix Methods',
-            'Probability and Random Process'
+            'Data Mining',
+            'Computer Vision',
+            'Intro to Info Retrieval',
+            'Natural Language',
+            'Advanced Algorithms',
+            'Visualization for Data Science'
         ]);
         yzu_ms.setCourses([
-            'Digital Signal Processing',
-            'Operating Systems',
-            'Data Structures',
-            'Computer Architecture',
-            'Signals and Systems'
+            'Mobile Big Data Analysis and Machine Learning',
+            'Neural Network',
+            'Deep Learning and its Vision Applications'
         ]);
         yzu_bs.setCourses([
             'Digital Signal Processing',
             'Operating Systems',
             'Data Structures',
             'Computer Architecture',
-            'Signals and Systems'
+            'Digital Signal Processing'
         ]);
         this.educations.set('uu', uu);
         this.educations.set('yzu_ms', yzu_ms);
@@ -452,7 +449,7 @@ var Education = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".img-fluid {\r\n    height: 700px;\r\n    width: 100%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9iYnkvaG9iYnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYixXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9ob2JieS9ob2JieS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmltZy1mbHVpZCB7XHJcbiAgICBoZWlnaHQ6IDcwMHB4O1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn0iXX0= */"
+module.exports = ".img-fluid {\r\n    height: 1200px;\r\n    width: 100%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9iYnkvaG9iYnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9ob2JieS9ob2JieS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmltZy1mbHVpZCB7XHJcbiAgICBoZWlnaHQ6IDEyMDBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG59Il19 */"
 
 /***/ }),
 
@@ -463,7 +460,7 @@ module.exports = ".img-fluid {\r\n    height: 700px;\r\n    width: 100%;\r\n}\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ngb-carousel *ngIf=\"images\">\r\n    <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra1.jpg\" alt=\"Random first slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>HSNUZS</h3>\r\n        <p>I was responsible for operating an association with members transferring from my high school to Tsing Hua. During that period, I enhanced cooperation skills with people, especially how to maintain friendship and work relationship at the same time. I coordinated 12 activities in a year like summer camp, winter camp, and university expo.</p>\r\n      </div>\r\n    </ng-template>\r\n    <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra2.jpg\" alt=\"Random second slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>TEDxNTHU</h3>\r\n        <p>I coordinated a TED event as CFO. We invited both somebody and nobody to our event to share their story. We stick to the goal of 'ideas worth spreading.</p>\r\n      </div>\r\n    </ng-template>\r\n    <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra3.jpg\" alt=\"Random third slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>WMUN</h3>\r\n        <p>I attended World Model United Nations (WMUN) in Seoul, Korea in March 2015. This event has been a chance of cultural exchange and mutual comprehension with elites around the world. Our topics were mostly politics and economy related.</p>\r\n      </div>\r\n    </ng-template>\r\n  </ngb-carousel>"
+module.exports = "<ngb-carousel *ngIf=\"images\">\r\n    <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra1.jpg\" alt=\"Random first slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>Teaching</h3>\r\n        <p>I enjoy introducing EE or CS knowledge to others.</p>\r\n      </div>\r\n    </ng-template>\r\n    <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra2.jpg\" alt=\"Random second slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>Badminton Club</h3>\r\n        <p>I am the team chaptin of badminton in EE department.</p>\r\n      </div>\r\n    </ng-template>\r\n    <!-- <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra3.jpg\" alt=\"Random third slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>WMUN</h3>\r\n        <p>I attended World Model United Nations (WMUN) in Seoul, Korea in March 2015. This event has been a chance of cultural exchange and mutual comprehension with elites around the world. Our topics were mostly politics and economy related.</p>\r\n      </div>\r\n    </ng-template> -->\r\n  </ngb-carousel>"
 
 /***/ }),
 
@@ -561,11 +558,11 @@ var JumbotronComponent = /** @class */ (function () {
                 'headEnglish': 'Skills',
                 'headChinese': '專業技能',
             },
-            'biography': {
-                'icon': 'fa fa-pencil fa-1x',
-                'headEnglish': 'Biography',
-                'headChinese': '自傳',
-            },
+            // 'biography': {
+            //   'icon': 'fa fa-pencil fa-1x',
+            //   'headEnglish': 'Biography',
+            //   'headChinese': '自傳',
+            // },
             'hobbies': {
                 'icon': 'fa fa-paper-plane-o fa-1x',
                 'headEnglish': 'Hobbies',
@@ -637,8 +634,8 @@ __webpack_require__.r(__webpack_exports__);
 var NavbarComponent = /** @class */ (function () {
     function NavbarComponent() {
         this.setLanguage = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.nameEnglish = 'Kevin Hwang';
-        this.nameChinese = '黃柏愷';
+        this.nameEnglish = 'Ruby Hsu';
+        this.nameChinese = '許予晴';
         this.href = [
             '#work',
             '#education',
@@ -652,7 +649,7 @@ var NavbarComponent = /** @class */ (function () {
             'Education',
             'Projects',
             'Skills',
-            'Biography',
+            // 'Biography',
             'Hobbies'
         ];
         this.categoriesChinese = [
@@ -660,7 +657,7 @@ var NavbarComponent = /** @class */ (function () {
             '學歷',
             '專題',
             '專業技能',
-            '自傳',
+            // '自傳',
             '嗜好'
         ];
     }
@@ -738,9 +735,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var ProfileComponent = /** @class */ (function () {
     function ProfileComponent() {
-        this.shortIntroEnglish = '';
-        this.shortIntroChinese = '';
-        this.introEnglish = '';
+        this.shortIntroEnglish = 'Software & Hardware Engineer in Utah';
+        this.shortIntroChinese = '在猶他州的軟體 & 硬體工程師';
+        this.introEnglish = 'Hi, I love music and coding. With 2 master degrees in both Computer Science and Electrical Engineering, I can build a robot, and develop any application run on the top. Enjoy!';
         this.introChinese = '';
         this.mobile = '+1 (801) 815-6372';
         this.email = 'yuching.hsu@utah.edu';
@@ -823,22 +820,32 @@ __webpack_require__.r(__webpack_exports__);
 var ProjectComponent = /** @class */ (function () {
     function ProjectComponent() {
         this.projects = new Map();
+        var p6 = new Project();
+        var p5 = new Project();
         var p4 = new Project();
         var p3 = new Project();
         var p2 = new Project();
         var p1 = new Project();
+        p6.setProjectImgPath('assets/img/project6-logo.png');
+        p5.setProjectImgPath('assets/img/project5-logo.png');
         p4.setProjectImgPath('assets/img/project4-logo.png');
         p3.setProjectImgPath('assets/img/project3-logo.png');
         p2.setProjectImgPath('assets/img/project2-logo.png');
         p1.setProjectImgPath('assets/img/project1-logo.png');
-        p1.setTitle('Image and Audio Processing with Paper Keyboard');
-        p2.setTitle('Augmented Reality Implementation with Box Man');
-        p3.setTitle('2D Indoor Positioning System in an Android Game App');
-        p4.setTitle('Multi-class AdaBoost Algorithm Comparison');
-        p4.setDescription('At first, We recorded human voice at only a single pitch, and we used DSP to simulate piano sound at every pitch. It sounds like a person is singing like a piano. In order to detect motions of playing the piano, we used a color filter to distinguish red, green, and blue on the image recorded by webcam. We chose a color which is obvious under the filter as our indicator for "press" action on the paper keyboard. Then we can demonstrate piano keyboard with classic music "I dreamed a dream".');
-        p3.setDescription('We used Webcam to record real world and the marker. The marker is a reference point between virtual world and real world. Then we projected a box man into the Webcam recorded world by coordinate transformation. We can also control the box man to walk, skate, and teleport.');
-        p2.setDescription('We put several bluetooth beacons on different locations in a space and used Android phone as signal receiver. Then we used RSSI, which stands for received signal strength indicator, as a measurement for calculating the distance between beacons and smartphone. With the distance data, we could detect the approximate location of users, and we used INS, inertial navigation system, as compensation for RSSI signal error, which is inevitable due to objects in the surrounding. Furthermore, we put RSSI and INS data into Kalman filter which improves location prediction up to 20%. Other DSP related technologies were used to erase sensor noise. Among all, my job was Android development and Bluetooth signal optimization.');
-        p1.setDescription('AdaBoost is a method to improve the performance of classification problem. Normally, classification problem will only use one classifier to determine the label, error is often high with this primitive method. In this project, we use decision tree as weak classifier, and classify the data set first round. At the next round, we will put more weight on misclassified data samples, and do the second round. Since we put more emphasis on misclassified data samples, they have higher chance to be correctly classified. The same procedure goes on several times keeping updating the weight of misclassified data samples. At the end, error drop dramatically. The goal of this project is to compare the pros and cons of different versions of AdaBoost (use teacher teaching a class as example), which means the different ways of updating the weight of misclassified data samples. We compare in total of three versions.');
+        p1.setTitle('Image Quality Analysis Tool');
+        p2.setTitle('Auto Recognition for Elevator Button with CNN');
+        p3.setTitle('Paired Face Detection for Multi-Camera');
+        p4.setTitle('Missing Migrants Data Visualization');
+        p5.setTitle('Auto Recognition for Unmanned Store with Faster R-CNN');
+        p6.setTitle('3D Computer Graphics for Combination Lock');
+        p6.setDescription('Designed the combination lock by using 3D AutoCAD. At first, constructed the model of for each ring in the lock, and then designed the mechanism for bonding rings and the lock itself. Since the lock require both the inner and outer tenon-and-mortise structure, it has to be designed dedicatedly.');
+        p5.setDescription('With only 6k samples, we have to distinguish items in 105 classes. Hence, to overcome the weakness of the small training dataset, we use multiple image preprocessing techniques to eliminate background noise as much as possible. Then, we designed an algorithm based on Faster R-CNN to identify the products.');
+        p4.setDescription('Designed an interactive website to provide safer migration suggestion by visualizing routes. Firstly, to visualize a dataset, we first must do the data cleaning work to ensure the integrity of the data. Hence, we divided the dataset into two part, one is the map, another is for word cloud. To make the website more interesting, we create several interaction between different graph.');
+        p3.setDescription('Besides the technique for human face detection, we added the upper body information to help identify the paired face in multi-camera. With analysis in feature comparison between different color spaces, and the calibration between different cameras, we can improve the accuracy in the detection of pairing face.');
+        p2.setDescription('We designed the algorithm, which can localize (with 95.8% accuracy) and recognize (with 100% accuracy) the button with combining of PAC, KBC, TM, CNN and finally, SSIM. With the method, we can strengthen the robot indoor navigation ability.');
+        p1.setDescription('Developed Logitech\'s internal analysis tool for image quality team to better control auto focus, auto white balance, auto exposure. Achieved real-time manipulation in video between hardware control and software visualization.');
+        this.projects.set('p6', p6);
+        this.projects.set('p5', p5);
         this.projects.set('p4', p4);
         this.projects.set('p3', p3);
         this.projects.set('p2', p2);
@@ -932,23 +939,24 @@ var SkillComponent = /** @class */ (function () {
     function SkillComponent() {
         this.skills = new Map();
         var lang = new Skill();
-        var database = new Skill();
+        // let database = new Skill();
         var web = new Skill();
         var tool = new Skill();
+        var library = new Skill();
         lang.setSkillClass('fa fa-code fa-stack-1x text-primary');
-        database.setSkillClass('fa fa-database fa-stack-1x text-primary');
+        library.setSkillClass('fa fa-database fa-stack-1x text-primary');
         web.setSkillClass('fa fa-cloud fa-stack-1x text-primary');
         tool.setSkillClass('fa fa-wrench fa-stack-1x text-primary');
         lang.setSkillTitle('Languages');
-        database.setSkillTitle('Databases');
+        library.setSkillTitle('Library');
         web.setSkillTitle('Web');
         tool.setSkillTitle('Tools');
-        lang.setSkillItems('Python, Scala, Java, Golang, C/C++');
-        database.setSkillItems('SQL, Oracle SQL*Plus, MySQL');
-        web.setSkillItems('Angular, TypeScript, HTML, CSS, JavaScript (jQuery, D3.js), Bootstrap, PHP (CodeIgniter)');
-        tool.setSkillItems('Bazel, Git');
+        lang.setSkillItems('Python, C/C++, Javascript, Matlab');
+        library.setSkillItems('OpenCV, Keras, Tensorflow');
+        web.setSkillItems('HTML, CSS, D3, Bootstrap');
+        tool.setSkillItems('Git, MFC(visual studio), Galago');
         this.skills.set('lang', lang);
-        this.skills.set('database', database);
+        this.skills.set('library', library);
         this.skills.set('web', web);
         this.skills.set('tool', tool);
     }
@@ -1003,7 +1011,7 @@ var Skill = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "img {\r\n    height: 100px;\r\n    margin: 10px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsWUFBWTtBQUNoQiIsImZpbGUiOiJzcmMvYXBwL3dvcmsvd29yay5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW1nIHtcclxuICAgIGhlaWdodDogMTAwcHg7XHJcbiAgICBtYXJnaW46IDEwcHg7XHJcbn0iXX0= */"
+module.exports = "img {\r\n    height: 100px;\r\n    margin: 0px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWcge1xyXG4gICAgaGVpZ2h0OiAxMDBweDtcclxuICAgIG1hcmdpbjogMHB4O1xyXG59Il19 */"
 
 /***/ }),
 
@@ -1034,38 +1042,23 @@ __webpack_require__.r(__webpack_exports__);
 
 var WorkComponent = /** @class */ (function () {
     function WorkComponent() {
-        // let lucid = new Work();
-        // let umtri = new Work();
-        // let clinc = new Work();
-        // lucid.setOrgLogoPath('assets/img/lucid-logo.jpg');
-        // umtri.setOrgLogoPath('assets/img/umtri-logo.png');
-        // clinc.setOrgLogoPath('assets/img/clinc-logo.png');
-        // lucid.setOrgName('Lucid Software, Inc.');
-        // umtri.setOrgName('University of Michigan Transportation Research Institute');
-        // clinc.setOrgName('Clinc, Inc.');
-        // lucid.setOrgLocation('South Jordan', 'UT', 'USA');
-        // umtri.setOrgLocation('Ann Arbor', 'MI', 'USA');
-        // clinc.setOrgLocation('Ann Arbor', 'MI', 'USA');
-        // lucid.setWorkPeriod('June 2018');
-        // umtri.setWorkPeriod('September 2017', 'April 2018');
-        // clinc.setWorkPeriod('May 2017', 'August 2017');
-        // lucid.setDescription(jobDescription['lucid']);
-        // umtri.setDescription(jobDescription['umtri']);
-        // clinc.setDescription(jobDescription['clinc']);
-        // lucid.setLinks('https://www.golucid.co', 'lucid.co');
-        // umtri.setLinks('http://www.umtri.umich.edu', 'UMTRI.umich.edu');
-        // umtri.setLinks('https://www.cmisst.org', 'CMISST.org');
-        // clinc.setLinks('https://clinc.com', 'Clinc.com');
-        // this.works.set('lucid', lucid);
-        // this.works.set('umtri', umtri);
-        // this.works.set('clinc', clinc);
         this.works = new Map();
         var logi = new Work();
         logi.setOrgLogoPath('assets/img/logitech-logo.png');
         logi.setOrgName('Logitech, Inc.');
         logi.setOrgLocation('Hsinchu', 'Taiwan', 'R.O.C');
         logi.setWorkPeriod('July 2018', 'September 2018');
+        logi.setDescription(jobDescription['logi']);
+        logi.setLinks('https://www.logitech.com/en-us', 'logitech.com');
         this.works.set('logi', logi);
+        var itri = new Work();
+        itri.setOrgLogoPath('assets/img/itri-logo.jpg');
+        itri.setOrgName('Industrial Technology Research Institute (ITRI)');
+        itri.setOrgLocation('Hsinchu', 'Taiwan', 'R.O.C');
+        itri.setWorkPeriod('May 2016');
+        itri.setDescription(jobDescription['itri']);
+        itri.setLinks('https://www.if.itri.org.tw/', 'if.itri.org.tw');
+        this.works.set('itri', itri);
     }
     WorkComponent.prototype.ngOnInit = function () {
     };
@@ -1134,9 +1127,9 @@ var Work = /** @class */ (function () {
     return Work;
 }());
 var jobDescription = {
-    'lucid': 'Developing Bazel, a Google’s open source build tool written in Java. Maintaining rules_scala, a rule for Bazel to perform a series of actions for Scala development. Targeting continuously reducing the build cost and improving build efficiency of the entire organization.',
-    'umtri': 'I am working in CMISST research group as a full stack engineer. There are a variety of traffic data in Michigan area in CMISST database. My goal is to extract the useful information and present it to drivers. I am developing a Michigan crash data visualization tool in D3.js. With such query tool, drivers can easily get the crash information on certain conditions, such as, at which area has the most crashes during the year, or what is the age distribution of drivers in each crash. In addition, those data is also the basis of autonomous car development. The entire project is built on front-end JavaScript and a CodeIgniter PHP web server.',
-    'clinc': 'I worked as a software engineer intern. Clinc is a startup in Ann Arbor, MI. their main focus is on personal financial assistant called Finie, which is a combination of \"Financial\" and \"Genie\". The reason why Finie is special is that people can use colloquial sentences to interact with Finie, even though there are some grammar mistakes or vague expressions in your sentences, Finie can understand it just like you are talking to a human being.<br>During the intern, I joined a project team called Finie for the Family. There are three major accomplishments for myself. The first one is building a monthly  budget tracking feature. Budgeting feature allows user to set a spending limit based either on certain categories or in general, it prevents users to overspend with next purchase. Besides creating a spending limit, users can modify their current amount or remove it. Finie can also give you spending advice based on the budget you have. The other similar is built on top of Finie, while we focused more on family assistant. Besides budgeting as a basic function, every family member could edit common shopping lists, or send notifications to family member. The last project is small but also exciting, I designed a web-app based chatbot to display the conversation between user and Finie.<br>Through out my intern, I used mostly Python as back-end language and Javascript as front-end language. Besides the feature designs as I mentioned above, I also had experience collecting crowd data by using Amazon Mechanical Turk, feeding data to machine learning model. For the back-end part, I used Django, an open source web framework written in Python, to interact with database.'
+    'logi': 'Developed Logitech’s internal analysis tool for image quality team to better control auto focus, auto white balance, auto exposure. Achieved real-time manipulation in video between hardware control and software visualization. Researched and developed computer vision algorithms centered around the human face detection.',
+    'itri': 'Illustrator of the journal: Industry and Management Forum. I designed the cover and the journal paper illustrations to visualize the link between IT and image.'
+    // 'clinc': 'I worked as a software engineer intern. Clinc is a startup in Ann Arbor, MI. their main focus is on personal financial assistant called Finie, which is a combination of \"Financial\" and \"Genie\". The reason why Finie is special is that people can use colloquial sentences to interact with Finie, even though there are some grammar mistakes or vague expressions in your sentences, Finie can understand it just like you are talking to a human being.<br>During the intern, I joined a project team called Finie for the Family. There are three major accomplishments for myself. The first one is building a monthly  budget tracking feature. Budgeting feature allows user to set a spending limit based either on certain categories or in general, it prevents users to overspend with next purchase. Besides creating a spending limit, users can modify their current amount or remove it. Finie can also give you spending advice based on the budget you have. The other similar is built on top of Finie, while we focused more on family assistant. Besides budgeting as a basic function, every family member could edit common shopping lists, or send notifications to family member. The last project is small but also exciting, I designed a web-app based chatbot to display the conversation between user and Finie.<br>Through out my intern, I used mostly Python as back-end language and Javascript as front-end language. Besides the feature designs as I mentioned above, I also had experience collecting crowd data by using Amazon Mechanical Turk, feeding data to machine learning model. For the back-end part, I used Django, an open source web framework written in Python, to interact with database.'
 };
 
 
