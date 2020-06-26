@@ -74,7 +74,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar [language]=\"language\" (setLanguage)=\"setLanguageHandler($event)\"></app-navbar>\r\n<div style=\"height:60px; width:100%; clear:both;\"></div>\r\n<app-profile [language]=\"language\"></app-profile>\r\n<app-jumbotron id=\"work\" section=\"work\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-work class=\"col-md-6 my-4\" name=\"logi\"></app-work>\r\n    <app-work class=\"col-md-6 my-4\" name=\"itri\"></app-work>\r\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"clinc\"></app-work> -->\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"education\" section=\"education\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-education class=\"col-md-6\" name=\"uu\" [language]=\"language\"></app-education>\r\n    <app-education class=\"col-md-6\" name=\"yzu_ms\" [language]=\"language\"></app-education>\r\n    <app-education class=\"col-md-6\" name=\"yzu_bs\" [language]=\"language\"></app-education>\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"projects\" section=\"projects\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-project class=\"col-md-6\" name=\"p4\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p3\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p2\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p1\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p5\" [language]=\"language\"></app-project>\r\n    <app-project class=\"col-md-6\" name=\"p6\" [language]=\"language\"></app-project>\r\n  </div>\r\n</div>\r\n<app-jumbotron id=\"skills\" section=\"skills\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container text-center\">        \r\n  <div class=\"row\">\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"lang\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"library\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"web\"></app-skill>\r\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"tool\"></app-skill>\r\n  </div>\r\n</div>\r\n<!-- <app-jumbotron id=\"biography\" section=\"biography\" [language]=\"language\"></app-jumbotron>\r\n<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <app-biography [language]=\"language\"></app-biography>\r\n  </div>\r\n</div> -->\r\n<app-jumbotron id=\"hobbies\" section=\"hobbies\" [language]=\"language\"></app-jumbotron>\r\n<app-hobby></app-hobby>"
+module.exports = "<app-navbar [language]=\"language\" (setLanguage)=\"setLanguageHandler($event)\"></app-navbar>\n<div style=\"height:60px; width:100%; clear:both;\"></div>\n<app-profile [language]=\"language\"></app-profile>\n<app-jumbotron id=\"work\" section=\"work\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">        \n  <div class=\"row\">\n    <app-work class=\"col-md-6 my-4\" name=\"logi\"></app-work>\n    <app-work class=\"col-md-6 my-4\" name=\"itri\"></app-work>\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"clinc\"></app-work> -->\n  </div>\n</div>\n<app-jumbotron id=\"education\" section=\"education\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">        \n  <div class=\"row\">\n    <app-education class=\"col-md-6\" name=\"uu\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_ms\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_bs\" [language]=\"language\"></app-education>\n  </div>\n</div>\n<app-jumbotron id=\"projects\" section=\"projects\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">        \n  <div class=\"row\">\n    <app-project class=\"col-md-6\" name=\"p4\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p3\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p2\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p1\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p5\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p6\" [language]=\"language\"></app-project>\n  </div>\n</div>\n<app-jumbotron id=\"skills\" section=\"skills\" [language]=\"language\"></app-jumbotron>\n<div class=\"container text-center\">        \n  <div class=\"row\">\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"lang\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"library\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"web\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"tool\"></app-skill>\n  </div>\n</div>\n<!-- <app-jumbotron id=\"biography\" section=\"biography\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">        \n  <div class=\"row\">\n    <app-biography [language]=\"language\"></app-biography>\n  </div>\n</div> -->\n<app-jumbotron id=\"hobbies\" section=\"hobbies\" [language]=\"language\"></app-jumbotron>\n<app-hobby></app-hobby>"
 
 /***/ }),
 
@@ -207,7 +207,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"language === 'en'\">\r\n  <p *ngFor=\"let line of bioEnglish\">{{ line }}</p>\r\n</div>\r\n<div *ngIf=\"language === 'ch'\">\r\n  <p *ngFor=\"let line of bioChinese\">{{ line }}</p>\r\n</div>\r\n"
+module.exports = "<div *ngIf=\"language === 'en'\">\n  <p *ngFor=\"let line of bioEnglish\">{{ line }}</p>\n</div>\n<div *ngIf=\"language === 'ch'\">\n  <p *ngFor=\"let line of bioChinese\">{{ line }}</p>\n</div>\n"
 
 /***/ }),
 
@@ -275,7 +275,7 @@ var bio = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".school-logo {\r\n    height: 100px;\r\n    margin: 10px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZWR1Y2F0aW9uL2VkdWNhdGlvbi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9lZHVjYXRpb24vZWR1Y2F0aW9uLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2Nob29sLWxvZ28ge1xyXG4gICAgaGVpZ2h0OiAxMDBweDtcclxuICAgIG1hcmdpbjogMTBweDtcclxufSJdfQ== */"
+module.exports = ".school-logo {\n    height: 100px;\n    margin: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZWR1Y2F0aW9uL2VkdWNhdGlvbi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9lZHVjYXRpb24vZWR1Y2F0aW9uLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2Nob29sLWxvZ28ge1xuICAgIGhlaWdodDogMTAwcHg7XG4gICAgbWFyZ2luOiAxMHB4O1xufSJdfQ== */"
 
 /***/ }),
 
@@ -286,7 +286,7 @@ module.exports = ".school-logo {\r\n    height: 100px;\r\n    margin: 10px;\r\n}
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"bg-container\">\r\n  <div class=\"card card-block\">\r\n    <div class=\"card-block\">        \r\n      <img class=\"school-logo\" [src]=\"educations.get(name).getSchoolLogoPath()\">\r\n      <h2>{{ educations.get(name).getSchoolName() }}</h2>\r\n      <h5>{{ educations.get(name).getDegree() }}</h5>\r\n      <p>{{ educations.get(name).getSchoolLocationString() }}</p>\r\n      <p>{{ educations.get(name).getSchoolPeriod() }}</p>\r\n      <p>\r\n        <span>GPA {{ educations.get(name).getGPA() }} </span>\r\n        <i class=\"fa fa-question-circle\" placement=\"right\" [ngbTooltip]=\"educations.get(name).getGPAScale()\" aria-hidden=\"true\"></i>\r\n      </p>\r\n      <h5>Courses</h5>\r\n      <ul>\r\n        <li *ngFor=\"let course of educations.get(name).getCourses()\">{{ course }}</li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"bg-container\">\n  <div class=\"card card-block\">\n    <div class=\"card-block\">        \n      <img class=\"school-logo\" [src]=\"educations.get(name).getSchoolLogoPath()\">\n      <h2>{{ educations.get(name).getSchoolName() }}</h2>\n      <h5>{{ educations.get(name).getDegree() }}</h5>\n      <p>{{ educations.get(name).getSchoolLocationString() }}</p>\n      <p>{{ educations.get(name).getSchoolPeriod() }}</p>\n      <p>\n        <span>GPA {{ educations.get(name).getGPA() }} </span>\n        <i class=\"fa fa-question-circle\" placement=\"right\" [ngbTooltip]=\"educations.get(name).getGPAScale()\" aria-hidden=\"true\"></i>\n      </p>\n      <h5>Courses</h5>\n      <ul>\n        <li *ngFor=\"let course of educations.get(name).getCourses()\">{{ course }}</li>\n      </ul>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -325,7 +325,7 @@ var EducationComponent = /** @class */ (function () {
         uu.setSchoolPeriod('August 2019', 'April 2021');
         yzu_ms.setSchoolPeriod('August 2018', 'June 2019');
         yzu_bs.setSchoolPeriod('August 2014', 'June 2018');
-        uu.setGPA(3.2);
+        uu.setGPA(3.62);
         yzu_ms.setGPA(4.0);
         yzu_bs.setGPA(3.77);
         uu.setGPAScale('out of 4.0');
@@ -334,8 +334,8 @@ var EducationComponent = /** @class */ (function () {
         uu.setCourses([
             'Data Mining',
             'Computer Vision',
-            'Intro to Info Retrieval',
-            'Natural Language',
+            'Information Retrieval',
+            'Natural Language Processing',
             'Advanced Algorithms',
             'Visualization for Data Science'
         ]);
@@ -449,7 +449,7 @@ var Education = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".img-fluid {\r\n    height: 1200px;\r\n    width: 100%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9iYnkvaG9iYnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9ob2JieS9ob2JieS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmltZy1mbHVpZCB7XHJcbiAgICBoZWlnaHQ6IDEyMDBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG59Il19 */"
+module.exports = ".img-fluid {\n    height: 1200px;\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9iYnkvaG9iYnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9ob2JieS9ob2JieS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmltZy1mbHVpZCB7XG4gICAgaGVpZ2h0OiAxMjAwcHg7XG4gICAgd2lkdGg6IDEwMCU7XG59Il19 */"
 
 /***/ }),
 
@@ -460,7 +460,7 @@ module.exports = ".img-fluid {\r\n    height: 1200px;\r\n    width: 100%;\r\n}\r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ngb-carousel *ngIf=\"images\">\r\n    <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra1.jpg\" alt=\"Random first slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>Teaching</h3>\r\n        <p>I enjoy introducing EE or CS knowledge to others.</p>\r\n      </div>\r\n    </ng-template>\r\n    <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra2.jpg\" alt=\"Random second slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>Badminton Club</h3>\r\n        <p>I am the team chaptin of badminton in EE department.</p>\r\n      </div>\r\n    </ng-template>\r\n    <!-- <ng-template ngbSlide>\r\n      <img class=\"img-fluid\" src=\"assets/img/extra3.jpg\" alt=\"Random third slide\">\r\n      <div class=\"carousel-caption\">\r\n        <h3>WMUN</h3>\r\n        <p>I attended World Model United Nations (WMUN) in Seoul, Korea in March 2015. This event has been a chance of cultural exchange and mutual comprehension with elites around the world. Our topics were mostly politics and economy related.</p>\r\n      </div>\r\n    </ng-template> -->\r\n  </ngb-carousel>"
+module.exports = "<ngb-carousel *ngIf=\"images\">\n    <ng-template ngbSlide>\n      <img class=\"img-fluid\" src=\"assets/img/extra1.jpg\" alt=\"Random first slide\">\n      <div class=\"carousel-caption\">\n        <h3>Teaching</h3>\n        <p>I enjoy introducing EE or CS knowledge to others.</p>\n      </div>\n    </ng-template>\n    <ng-template ngbSlide>\n      <img class=\"img-fluid\" src=\"assets/img/extra2.jpg\" alt=\"Random second slide\">\n      <div class=\"carousel-caption\">\n        <h3>Badminton Club</h3>\n        <p>I am the team chaptin of badminton in EE department.</p>\n      </div>\n    </ng-template>\n    <!-- <ng-template ngbSlide>\n      <img class=\"img-fluid\" src=\"assets/img/extra3.jpg\" alt=\"Random third slide\">\n      <div class=\"carousel-caption\">\n        <h3>WMUN</h3>\n        <p>I attended World Model United Nations (WMUN) in Seoul, Korea in March 2015. This event has been a chance of cultural exchange and mutual comprehension with elites around the world. Our topics were mostly politics and economy related.</p>\n      </div>\n    </ng-template> -->\n  </ngb-carousel>"
 
 /***/ }),
 
@@ -517,7 +517,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron text-center\">\r\n  <h1>\r\n    <i [class]=\"sections[section]['icon']\" aria-hidden=\"true\"></i>\r\n    <span *ngIf=\"language === 'en'\">{{ sections[section]['headEnglish'] }}</span>\r\n    <span *ngIf=\"language === 'ch'\">{{ sections[section]['headChinese'] }}</span>\r\n  </h1>\r\n</div>\r\n\r\n"
+module.exports = "<div class=\"jumbotron text-center\">\n  <h1>\n    <i [class]=\"sections[section]['icon']\" aria-hidden=\"true\"></i>\n    <span *ngIf=\"language === 'en'\">{{ sections[section]['headEnglish'] }}</span>\n    <span *ngIf=\"language === 'ch'\">{{ sections[section]['headChinese'] }}</span>\n  </h1>\n</div>\n\n"
 
 /***/ }),
 
@@ -613,7 +613,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light fixed-top\">\r\n  <a class=\"navbar-brand\" href=\"#\" *ngIf=\"language === 'en'\">{{ nameEnglish }}</a>\r\n  <a class=\"navbar-brand\" href=\"#\" *ngIf=\"language === 'ch'\">{{ nameChinese }}</a>\r\n\r\n  <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n    <ul class=\"navbar-nav\" *ngIf=\"language === 'en'\">\r\n      <li class=\"nav-item\" *ngFor=\"let category of categoriesEnglish; let i = index\">\r\n        <a class=\"nav-link\" [href]=\"href[i]\">{{ category }}</a>\r\n      </li>\r\n    </ul>\r\n    <ul class=\"navbar-nav\" *ngIf=\"language === 'ch'\">\r\n      <li class=\"nav-item\" *ngFor=\"let category of categoriesChinese; let i = index\">\r\n        <a class=\"nav-link\" [href]=\"href[i]\">{{ category }}</a>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n  <button *ngIf=\"language === 'en'\" class=\"btn btn-primary\" (click)=\"setChinese()\">中文</button>\r\n  <button *ngIf=\"language === 'ch'\" class=\"btn btn-primary\" (click)=\"setEnglish()\">English</button>\r\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light fixed-top\">\n  <a class=\"navbar-brand\" href=\"#\" *ngIf=\"language === 'en'\">{{ nameEnglish }}</a>\n  <a class=\"navbar-brand\" href=\"#\" *ngIf=\"language === 'ch'\">{{ nameChinese }}</a>\n\n  <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n    <ul class=\"navbar-nav\" *ngIf=\"language === 'en'\">\n      <li class=\"nav-item\" *ngFor=\"let category of categoriesEnglish; let i = index\">\n        <a class=\"nav-link\" [href]=\"href[i]\">{{ category }}</a>\n      </li>\n    </ul>\n    <ul class=\"navbar-nav\" *ngIf=\"language === 'ch'\">\n      <li class=\"nav-item\" *ngFor=\"let category of categoriesChinese; let i = index\">\n        <a class=\"nav-link\" [href]=\"href[i]\">{{ category }}</a>\n      </li>\n    </ul>\n  </div>\n  <button *ngIf=\"language === 'en'\" class=\"btn btn-primary\" (click)=\"setChinese()\">中文</button>\n  <button *ngIf=\"language === 'ch'\" class=\"btn btn-primary\" (click)=\"setEnglish()\">English</button>\n</nav>"
 
 /***/ }),
 
@@ -704,7 +704,7 @@ var NavbarComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".my-link {\r\n    margin-left: 10px;\r\n    margin-right: 10px;\r\n}\r\n\r\n.linkedin {\r\n    color: #0077B5;\r\n}\r\n\r\n.github {\r\n    color: black;\r\n}\r\n\r\n.youtube {\r\n    color: #ff0000;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksY0FBYztBQUNsQjs7QUFFQTtJQUNJLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubXktbGluayB7XHJcbiAgICBtYXJnaW4tbGVmdDogMTBweDtcclxuICAgIG1hcmdpbi1yaWdodDogMTBweDtcclxufVxyXG5cclxuLmxpbmtlZGluIHtcclxuICAgIGNvbG9yOiAjMDA3N0I1O1xyXG59XHJcblxyXG4uZ2l0aHViIHtcclxuICAgIGNvbG9yOiBibGFjaztcclxufVxyXG5cclxuLnlvdXR1YmUge1xyXG4gICAgY29sb3I6ICNmZjAwMDA7XHJcbn1cclxuIl19 */"
+module.exports = ".my-link {\n    margin-left: 10px;\n    margin-right: 10px;\n}\n\n.linkedin {\n    color: #0077B5;\n}\n\n.github {\n    color: black;\n}\n\n.youtube {\n    color: #ff0000;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksY0FBYztBQUNsQjs7QUFFQTtJQUNJLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubXktbGluayB7XG4gICAgbWFyZ2luLWxlZnQ6IDEwcHg7XG4gICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xufVxuXG4ubGlua2VkaW4ge1xuICAgIGNvbG9yOiAjMDA3N0I1O1xufVxuXG4uZ2l0aHViIHtcbiAgICBjb2xvcjogYmxhY2s7XG59XG5cbi55b3V0dWJlIHtcbiAgICBjb2xvcjogI2ZmMDAwMDtcbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -715,7 +715,7 @@ module.exports = ".my-link {\r\n    margin-left: 10px;\r\n    margin-right: 10px
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">        \r\n  <div class=\"row\">\r\n    <div class=\"col-md-7\">\r\n      <div *ngIf=\"language === 'en'\">\r\n        <h1>{{ shortIntroEnglish }}</h1>\r\n        <p>{{ introEnglish }}</p>\r\n      </div>\r\n      <div *ngIf=\"language === 'ch'\">\r\n        <h1>{{ nameChinese }}</h1>\r\n        <h3>{{ shortIntroChinese }}</h3>\r\n        <p>{{ introChinese }}</p>\r\n      </div>\r\n      <p>{{ mobile }}</p>\r\n      <p>{{ email }}</p>\r\n      <p>\r\n        <a *ngFor=\"let link of links\" [class]=\"link['class']\" [href]=\"link['url']\" target=\"_blank\">\r\n            <i [class]=\"link['iconClass']\" aria-hidden=\"true\"></i>\r\n        </a>\r\n      </p>\r\n      \r\n      <p>\r\n        <!-- download resume -->\r\n        <a href=\"assets/YuChingHsuResume.pdf\" target=\"_blank\">\r\n            <button type=\"button\" class=\"btn btn-danger btn-lg\">\r\n                <i class=\"fa fa-download fa-1x\" aria-hidden=\"true\"></i>\r\n                Resume (PDF)\r\n            </button>\r\n        </a>\r\n      </p>\r\n    </div>\r\n    <div class=\"col-md-5\">\r\n      <img class=\"img-thumbnail\" src=\"assets/img/authorRuby.jpg\">\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"container\">        \n  <div class=\"row\">\n    <div class=\"col-md-7\">\n      <div *ngIf=\"language === 'en'\">\n        <h1>{{ shortIntroEnglish }}</h1>\n        <p>{{ introEnglish }}</p>\n      </div>\n      <div *ngIf=\"language === 'ch'\">\n        <h1>{{ nameChinese }}</h1>\n        <h3>{{ shortIntroChinese }}</h3>\n        <p>{{ introChinese }}</p>\n      </div>\n      <p>{{ mobile }}</p>\n      <p>{{ email }}</p>\n      <p>\n        <a *ngFor=\"let link of links\" [class]=\"link['class']\" [href]=\"link['url']\" target=\"_blank\">\n            <i [class]=\"link['iconClass']\" aria-hidden=\"true\"></i>\n        </a>\n      </p>\n      \n      <p>\n        <!-- download resume -->\n        <a href=\"assets/YuChingHsuResume.pdf\" target=\"_blank\">\n            <button type=\"button\" class=\"btn btn-danger btn-lg\">\n                <i class=\"fa fa-download fa-1x\" aria-hidden=\"true\"></i>\n                Resume (PDF)\n            </button>\n        </a>\n      </p>\n    </div>\n    <div class=\"col-md-5\">\n      <img class=\"img-thumbnail\" src=\"assets/img/authorRuby.jpg\">\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -788,7 +788,7 @@ var ProfileComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".project-img {\r\n    width: 100%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdC9wcm9qZWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0L3Byb2plY3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9qZWN0LWltZyB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxufVxyXG4iXX0= */"
+module.exports = ".project-img {\n    width: 100%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdC9wcm9qZWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0L3Byb2plY3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9qZWN0LWltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -799,7 +799,7 @@ module.exports = ".project-img {\r\n    width: 100%;\r\n}\r\n\r\n/*# sourceMappi
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img class=\"project-img img-responsive\" [src]=\"projects.get(name).getProjectImgPath()\" alt=\"\">\r\n<h3>{{ projects.get(name).getTitle() }}</h3>\r\n<p>{{ projects.get(name).getDescription() }}</p>\r\n"
+module.exports = "<img class=\"project-img img-responsive\" [src]=\"projects.get(name).getProjectImgPath()\" alt=\"\">\n<h3>{{ projects.get(name).getTitle() }}</h3>\n<p>{{ projects.get(name).getDescription() }}</p>\n"
 
 /***/ }),
 
@@ -917,7 +917,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"service-item\">\r\n  <span class=\"fa-stack fa-4x\">\r\n    <i class=\"fa fa-circle fa-stack-2x\"></i>\r\n    <i [class]=\"skills.get(name).getSkillClass()\"></i>\r\n  </span>\r\n  <h3>{{ skills.get(name).getSkillTitle() }}</h3>\r\n  <p>{{ skills.get(name).getSkillItems() }}</p>\r\n</div>\r\n"
+module.exports = "<div class=\"service-item\">\n  <span class=\"fa-stack fa-4x\">\n    <i class=\"fa fa-circle fa-stack-2x\"></i>\n    <i [class]=\"skills.get(name).getSkillClass()\"></i>\n  </span>\n  <h3>{{ skills.get(name).getSkillTitle() }}</h3>\n  <p>{{ skills.get(name).getSkillItems() }}</p>\n</div>\n"
 
 /***/ }),
 
@@ -948,13 +948,13 @@ var SkillComponent = /** @class */ (function () {
         web.setSkillClass('fa fa-cloud fa-stack-1x text-primary');
         tool.setSkillClass('fa fa-wrench fa-stack-1x text-primary');
         lang.setSkillTitle('Languages');
-        library.setSkillTitle('Library');
+        library.setSkillTitle('DataBase');
         web.setSkillTitle('Web');
         tool.setSkillTitle('Tools');
-        lang.setSkillItems('Python, C/C++, Javascript, Matlab');
-        library.setSkillItems('OpenCV, Keras, Tensorflow');
-        web.setSkillItems('HTML, CSS, D3, Bootstrap');
-        tool.setSkillItems('Git, MFC(visual studio), Galago');
+        lang.setSkillItems('Python, C/C++, Javascript, Java, Matlab');
+        library.setSkillItems('MongoDB');
+        web.setSkillItems('HTML, CSS, D3, AngularJS, Bootstrap');
+        tool.setSkillItems('OpenCV, Keras, Tensorflow, Git, MFC(visual studio), Galago');
         this.skills.set('lang', lang);
         this.skills.set('library', library);
         this.skills.set('web', web);
@@ -1011,7 +1011,7 @@ var Skill = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "img {\r\n    height: 100px;\r\n    margin: 0px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWcge1xyXG4gICAgaGVpZ2h0OiAxMDBweDtcclxuICAgIG1hcmdpbjogMHB4O1xyXG59Il19 */"
+module.exports = "img {\n    height: 100px;\n    margin: 0px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWcge1xuICAgIGhlaWdodDogMTAwcHg7XG4gICAgbWFyZ2luOiAwcHg7XG59Il19 */"
 
 /***/ }),
 
@@ -1022,7 +1022,7 @@ module.exports = "img {\r\n    height: 100px;\r\n    margin: 0px;\r\n}\r\n/*# so
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>             \r\n  <img [src]=\"works.get(name).getOrgLogoPath()\">\r\n  <h2>{{ works.get(name).getOrgName() }}</h2>    \r\n  <p>{{ works.get(name).getOrgLocationString() }}</p>\r\n  <p>{{ works.get(name).getWorkPeriod() }}</p>\r\n  <p>{{ works.get(name).getDescription() }}</p>\r\n  <p *ngFor=\"let link of works.get(name).getLinks()\">\r\n    <a [href]=\"link['link']\" target=\"_blank\">{{ link['linkName'] }}</a>\r\n  </p>\r\n</div>"
+module.exports = "<div>             \n  <img [src]=\"works.get(name).getOrgLogoPath()\">\n  <h2>{{ works.get(name).getOrgName() }}</h2>    \n  <p>{{ works.get(name).getOrgLocationString() }}</p>\n  <p>{{ works.get(name).getWorkPeriod() }}</p>\n  <p>{{ works.get(name).getDescription() }}</p>\n  <p *ngFor=\"let link of works.get(name).getLinks()\">\n    <a [href]=\"link['link']\" target=\"_blank\">{{ link['linkName'] }}</a>\n  </p>\n</div>"
 
 /***/ }),
 
@@ -1196,7 +1196,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\CV_application\borkaehw.angular.portfolio\yuchinghsu-portfolio\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/yu-chinghsu/Documents/Github/borkaehw.angular.portfolio/yuchinghsu-portfolio/src/main.ts */"./src/main.ts");
 
 
 /***/ })
