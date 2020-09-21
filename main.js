@@ -74,7 +74,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar [language]=\"language\" (setLanguage)=\"setLanguageHandler($event)\"></app-navbar>\n<div style=\"height:60px; width:100%; clear:both;\"></div>\n<app-profile [language]=\"language\"></app-profile>\n<app-jumbotron id=\"work\" section=\"work\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">        \n  <div class=\"row\">\n    <app-work class=\"col-md-6 my-4\" name=\"logi\"></app-work>\n    <app-work class=\"col-md-6 my-4\" name=\"itri\"></app-work>\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"clinc\"></app-work> -->\n  </div>\n</div>\n<app-jumbotron id=\"education\" section=\"education\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">        \n  <div class=\"row\">\n    <app-education class=\"col-md-6\" name=\"uu\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_ms\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_bs\" [language]=\"language\"></app-education>\n  </div>\n</div>\n<app-jumbotron id=\"projects\" section=\"projects\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">        \n  <div class=\"row\">\n    <app-project class=\"col-md-6\" name=\"p4\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p3\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p2\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p1\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p5\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p6\" [language]=\"language\"></app-project>\n  </div>\n</div>\n<app-jumbotron id=\"skills\" section=\"skills\" [language]=\"language\"></app-jumbotron>\n<div class=\"container text-center\">        \n  <div class=\"row\">\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"lang\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"library\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"web\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"tool\"></app-skill>\n  </div>\n</div>\n<!-- <app-jumbotron id=\"biography\" section=\"biography\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">        \n  <div class=\"row\">\n    <app-biography [language]=\"language\"></app-biography>\n  </div>\n</div> -->\n<app-jumbotron id=\"hobbies\" section=\"hobbies\" [language]=\"language\"></app-jumbotron>\n<app-hobby></app-hobby>"
+module.exports = "<app-navbar [language]=\"language\" (setLanguage)=\"setLanguageHandler($event)\"></app-navbar>\n<div style=\"height:60px; width:100%; clear:both;\"></div>\n<app-profile [language]=\"language\"></app-profile>\n<app-jumbotron id=\"work\" section=\"work\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-work class=\"col-md-12 my-4\" name=\"logi\"></app-work>\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"itri\"></app-work> -->\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"clinc\"></app-work> -->\n  </div>\n</div>\n<app-jumbotron id=\"education\" section=\"education\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-education class=\"col-md-6\" name=\"uu\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_ms\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_bs\" [language]=\"language\"></app-education>\n  </div>\n</div>\n<app-jumbotron id=\"projects\" section=\"projects\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-project class=\"col-md-6\" name=\"p4\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p3\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p2\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p1\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p5\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p6\" [language]=\"language\"></app-project>\n  </div>\n</div>\n<app-jumbotron id=\"skills\" section=\"skills\" [language]=\"language\"></app-jumbotron>\n<div class=\"container text-center\">\n  <div class=\"row\">\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"lang\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"library\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"web\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"tool\"></app-skill>\n  </div>\n</div>\n<!-- <app-jumbotron id=\"biography\" section=\"biography\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-biography [language]=\"language\"></app-biography>\n  </div>\n</div> -->\n<app-jumbotron id=\"hobbies\" section=\"hobbies\" [language]=\"language\"></app-jumbotron>\n<app-hobby></app-hobby>\n"
 
 /***/ }),
 
@@ -139,6 +139,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _project_project_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./project/project.component */ "./src/app/project/project.component.ts");
 /* harmony import */ var _skill_skill_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./skill/skill.component */ "./src/app/skill/skill.component.ts");
 /* harmony import */ var _hobby_hobby_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./hobby/hobby.component */ "./src/app/hobby/hobby.component.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
 
 
 
@@ -155,6 +156,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+// import { MatVideoModule } from 'mat-video';
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -176,7 +179,8 @@ var AppModule = /** @class */ (function () {
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
                 angular_font_awesome__WEBPACK_IMPORTED_MODULE_4__["AngularFontAwesomeModule"],
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"]
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"],
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_16__["BrowserAnimationsModule"],
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
@@ -322,7 +326,7 @@ var EducationComponent = /** @class */ (function () {
         uu.setSchoolLocation('Salt Lake City', 'UT', 'USA');
         yzu_ms.setSchoolLocation('Taoyuan', '', 'Taiwan');
         yzu_bs.setSchoolLocation('Taoyuan', '', 'Taiwan');
-        uu.setSchoolPeriod('August 2019', 'April 2021');
+        uu.setSchoolPeriod('August 2019', 'May 2021');
         yzu_ms.setSchoolPeriod('August 2018', 'June 2019');
         yzu_bs.setSchoolPeriod('August 2014', 'June 2018');
         uu.setGPA(3.62);
@@ -332,12 +336,10 @@ var EducationComponent = /** @class */ (function () {
         yzu_ms.setGPAScale('out of 4.0');
         yzu_bs.setGPAScale('out of 4.0');
         uu.setCourses([
-            'Data Mining',
-            'Computer Vision',
-            'Information Retrieval',
-            'Natural Language Processing',
-            'Advanced Algorithms',
-            'Visualization for Data Science'
+            'Advanced Algorithms', 'Computer Architecture',
+            'Data Mining', 'Computer Vision', 'Information Retrieval', 'Natural Language Processing',
+            'Visualization for Data Science',
+            'Web Browser Internals', 'Deep Learning'
         ]);
         yzu_ms.setCourses([
             'Mobile Big Data Analysis and Machine Learning',
@@ -715,7 +717,7 @@ module.exports = ".my-link {\n    margin-left: 10px;\n    margin-right: 10px;\n}
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">        \n  <div class=\"row\">\n    <div class=\"col-md-7\">\n      <div *ngIf=\"language === 'en'\">\n        <h1>{{ shortIntroEnglish }}</h1>\n        <p>{{ introEnglish }}</p>\n      </div>\n      <div *ngIf=\"language === 'ch'\">\n        <h1>{{ nameChinese }}</h1>\n        <h3>{{ shortIntroChinese }}</h3>\n        <p>{{ introChinese }}</p>\n      </div>\n      <p>{{ mobile }}</p>\n      <p>{{ email }}</p>\n      <p>\n        <a *ngFor=\"let link of links\" [class]=\"link['class']\" [href]=\"link['url']\" target=\"_blank\">\n            <i [class]=\"link['iconClass']\" aria-hidden=\"true\"></i>\n        </a>\n      </p>\n      \n      <p>\n        <!-- download resume -->\n        <a href=\"assets/YuChingHsuResume.pdf\" target=\"_blank\">\n            <button type=\"button\" class=\"btn btn-danger btn-lg\">\n                <i class=\"fa fa-download fa-1x\" aria-hidden=\"true\"></i>\n                Resume (PDF)\n            </button>\n        </a>\n      </p>\n    </div>\n    <div class=\"col-md-5\">\n      <img class=\"img-thumbnail\" src=\"assets/img/authorRuby.jpg\">\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-7\">\n      <div *ngIf=\"language === 'en'\">\n        <h1>{{ shortIntroEnglish }}</h1>\n        <p>{{ introEnglish }}</p>\n      </div>\n      <div *ngIf=\"language === 'ch'\">\n        <h1>{{ nameChinese }}</h1>\n        <h3>{{ shortIntroChinese }}</h3>\n        <p>{{ introChinese }}</p>\n      </div>\n      <p>{{ mobile }}</p>\n      <p>{{ email }}</p>\n      <p>\n        <a *ngFor=\"let link of links\" [class]=\"link['class']\" [href]=\"link['url']\" target=\"_blank\">\n            <i [class]=\"link['iconClass']\" aria-hidden=\"true\"></i>\n        </a>\n      </p>\n\n      <p>\n        <!-- download resume -->\n        <a href=\"assets/YuChingHsuResume.pdf\" target=\"_blank\">\n            <button type=\"button\" class=\"btn btn-danger btn-lg\">\n                <i class=\"fa fa-download fa-1x\" aria-hidden=\"true\"></i>\n                Resume (PDF)\n            </button>\n        </a>\n      </p>\n    </div>\n    <div class=\"col-md-5\">\n      <img class=\"img-thumbnail\" src=\"assets/img/authorRuby.jpg\">\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -735,29 +737,29 @@ __webpack_require__.r(__webpack_exports__);
 
 var ProfileComponent = /** @class */ (function () {
     function ProfileComponent() {
-        this.shortIntroEnglish = 'Software & Hardware Engineer in Utah';
-        this.shortIntroChinese = '在猶他州的軟體 & 硬體工程師';
-        this.introEnglish = 'Hi, I love music and coding. With 2 master degrees in both Computer Science and Electrical Engineering, I can build a robot, and develop any application run on the top. Enjoy!';
-        this.introChinese = '';
+        this.shortIntroEnglish = 'Software Engineer';
+        this.nameEnglish = 'Yu-Ching (Ruby) Hsu\'s website';
+        this.shortIntroChinese = '軟體工程師';
+        this.introEnglish = 'Hi, I\'m a self-motivated quick learner with a strong sense of urgency. \
+  I have hands-on developing experience include Algorithm, Firmware, Image Processing, and data analysis,\
+   as well as root cause analysis skill in mixed HW/SW issues.\
+   I have 5 years research experience in computer vision, 2 paper published, 3 years experience in machine learning (CNN, Faster-RCNN).\
+   I\'m also an illustrator, hope you enjoy the website!';
+        this.introChinese = '我喜歡畫畫，同時也是軟體工程師。擁有5年computer vision的相關研究經歷，3篇論文發表。';
         this.mobile = '+1 (801) 815-6372';
-        this.email = 'yuching.hsu@utah.edu';
+        this.email = 'hsuyuching95@gmail.com';
+        this.nameChinese = '許予晴(Ruby Hsu)';
         this.links = [
             {
                 'class': 'linkedin my-link',
                 'url': 'https://www.linkedin.com/in/yuchinghsu',
                 'iconClass': 'fa fa-linkedin fa-2x'
-            }
-            // ,
-            // {
-            //   'class': 'github my-link',
-            //   'url': 'https://github.com/borkaehw',
-            //   'iconClass': 'fa fa-github fa-2x'
-            // },
-            // {
-            //   'class': 'youtube my-link',
-            //   'url': 'https://www.youtube.com/channel/UCF0isvgYaaTVXBtUihQNiUQ',
-            //   'iconClass': 'fa fa-youtube fa-2x'
-            // }
+            },
+            {
+                'class': 'github my-link',
+                'url': 'https://github.com/hsuyuching',
+                'iconClass': 'fa fa-github fa-2x'
+            },
         ];
     }
     ProfileComponent.prototype.ngOnInit = function () {
@@ -799,7 +801,7 @@ module.exports = ".project-img {\n    width: 100%;\n}\n\n/*# sourceMappingURL=da
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img class=\"project-img img-responsive\" [src]=\"projects.get(name).getProjectImgPath()\" alt=\"\">\n<h3>{{ projects.get(name).getTitle() }}</h3>\n<p>{{ projects.get(name).getDescription() }}</p>\n"
+module.exports = "<div >\n  <img class=\"project-img img-responsive\" [src]=\"projects.get(name).getProjectImgPath()\" alt=\"\">\n  <h3>{{ projects.get(name).getTitle() }}\n    <!-- <p *ngFor=\"let link of projects.get(name).getLinks()\">\n    <a [href]=\"link['link']\" target=\"_blank\">{{ projects.get(name).getTitle() }}  </a>\n    </p> -->\n  </h3>\n\n  <p>{{ projects.get(name).getDescription() }}</p>\n</div>\n"
 
 /***/ }),
 
@@ -844,6 +846,12 @@ var ProjectComponent = /** @class */ (function () {
         p3.setDescription('Besides the technique for human face detection, we added the upper body information to help identify the paired face in multi-camera. With analysis in feature comparison between different color spaces, and the calibration between different cameras, we can improve the accuracy in the detection of pairing face.');
         p2.setDescription('We designed the algorithm, which can localize (with 95.8% accuracy) and recognize (with 100% accuracy) the button with combining of PAC, KBC, TM, CNN and finally, SSIM. With the method, we can strengthen the robot indoor navigation ability.');
         p1.setDescription('Developed Logitech\'s internal analysis tool for image quality team to better control auto focus, auto white balance, auto exposure. Achieved real-time manipulation in video between hardware control and software visualization.');
+        p1.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
+        // p2.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
+        // p3.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
+        // p4.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
+        // p5.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
+        // p6.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
         this.projects.set('p6', p6);
         this.projects.set('p5', p5);
         this.projects.set('p4', p4);
@@ -874,6 +882,7 @@ var ProjectComponent = /** @class */ (function () {
 
 var Project = /** @class */ (function () {
     function Project() {
+        this.links = [];
     }
     Project.prototype.setProjectImgPath = function (projectImgPath) {
         this.projectImgPath = projectImgPath;
@@ -892,6 +901,15 @@ var Project = /** @class */ (function () {
     };
     Project.prototype.getDescription = function () {
         return this.description;
+    };
+    Project.prototype.setLinks = function (link, linkName) {
+        this.links.push({
+            'link': link,
+            'linkName': linkName
+        });
+    };
+    Project.prototype.getLinks = function () {
+        return this.links;
     };
     return Project;
 }());
@@ -1011,7 +1029,7 @@ var Skill = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "img {\n    height: 100px;\n    margin: 0px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbWcge1xuICAgIGhlaWdodDogMTAwcHg7XG4gICAgbWFyZ2luOiAwcHg7XG59Il19 */"
+module.exports = "img {\n    height: 100px;\n    margin: 0px;\n}\n.leftside {\n  float: left;\n  width: 40%;\n}\n.rightside {\n  float: right;\n  margin-left: auto;\n  margin-top: auto;\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsV0FBVztBQUNmO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsVUFBVTtBQUNaO0FBQ0E7RUFDRSxZQUFZO0VBQ1osaUJBQWlCO0VBQ2pCLGdCQUFnQjtFQUNoQixVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC93b3JrL3dvcmsuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBtYXJnaW46IDBweDtcbn1cbi5sZWZ0c2lkZSB7XG4gIGZsb2F0OiBsZWZ0O1xuICB3aWR0aDogNDAlO1xufVxuLnJpZ2h0c2lkZSB7XG4gIGZsb2F0OiByaWdodDtcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIG1hcmdpbi10b3A6IGF1dG87XG4gIHdpZHRoOiA1MCU7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -1022,7 +1040,7 @@ module.exports = "img {\n    height: 100px;\n    margin: 0px;\n}\n/*# sourceMapp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>             \n  <img [src]=\"works.get(name).getOrgLogoPath()\">\n  <h2>{{ works.get(name).getOrgName() }}</h2>    \n  <p>{{ works.get(name).getOrgLocationString() }}</p>\n  <p>{{ works.get(name).getWorkPeriod() }}</p>\n  <p>{{ works.get(name).getDescription() }}</p>\n  <p *ngFor=\"let link of works.get(name).getLinks()\">\n    <a [href]=\"link['link']\" target=\"_blank\">{{ link['linkName'] }}</a>\n  </p>\n</div>"
+module.exports = "<div class=\"row\">\n  <div class=\"leftside\">\n    <img [src]=\"works.get(name).getOrgLogoPath()\">\n    <h2>{{ works.get(name).getOrgName() }}</h2>\n    <p>{{ works.get(name).getOrgLocationString() }}</p>\n    <p>{{ works.get(name).getWorkPeriod() }}</p>\n    <p>{{ works.get(name).getDescription() }}</p>\n    <p *ngFor=\"let link of works.get(name).getLinks()\">\n      <a [href]=\"link['link']\" target=\"_blank\">{{ link['linkName'] }}</a>\n    </p>\n  </div>\n  <div class=\"rightside\">\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed//IKfHjiEIFts\" frameborder=\"0\" allowfullscreen></iframe>\n  </div>\n</div>\n\n\n"
 
 /***/ }),
 
@@ -1051,14 +1069,14 @@ var WorkComponent = /** @class */ (function () {
         logi.setDescription(jobDescription['logi']);
         logi.setLinks('https://www.logitech.com/en-us', 'logitech.com');
         this.works.set('logi', logi);
-        var itri = new Work();
-        itri.setOrgLogoPath('assets/img/itri-logo.jpg');
-        itri.setOrgName('Industrial Technology Research Institute (ITRI)');
-        itri.setOrgLocation('Hsinchu', 'Taiwan', 'R.O.C');
-        itri.setWorkPeriod('May 2016');
-        itri.setDescription(jobDescription['itri']);
-        itri.setLinks('https://www.if.itri.org.tw/', 'if.itri.org.tw');
-        this.works.set('itri', itri);
+        // let itri = new Work();
+        // itri.setOrgLogoPath('assets/img/itri-logo.jpg');
+        // itri.setOrgName('Industrial Technology Research Institute (ITRI)');
+        // itri.setOrgLocation('Hsinchu', 'Taiwan', 'R.O.C');
+        // itri.setWorkPeriod('May 2016');
+        // itri.setDescription(jobDescription['itri']);
+        // itri.setLinks('https://www.if.itri.org.tw/', 'if.itri.org.tw');
+        // this.works.set('itri', itri);
     }
     WorkComponent.prototype.ngOnInit = function () {
     };
@@ -1128,8 +1146,6 @@ var Work = /** @class */ (function () {
 }());
 var jobDescription = {
     'logi': 'Developed Logitech’s internal analysis tool for image quality team to better control auto focus, auto white balance, auto exposure. Achieved real-time manipulation in video between hardware control and software visualization. Researched and developed computer vision algorithms centered around the human face detection.',
-    'itri': 'Illustrator of the journal: Industry and Management Forum. I designed the cover and the journal paper illustrations to visualize the link between IT and image.'
-    // 'clinc': 'I worked as a software engineer intern. Clinc is a startup in Ann Arbor, MI. their main focus is on personal financial assistant called Finie, which is a combination of \"Financial\" and \"Genie\". The reason why Finie is special is that people can use colloquial sentences to interact with Finie, even though there are some grammar mistakes or vague expressions in your sentences, Finie can understand it just like you are talking to a human being.<br>During the intern, I joined a project team called Finie for the Family. There are three major accomplishments for myself. The first one is building a monthly  budget tracking feature. Budgeting feature allows user to set a spending limit based either on certain categories or in general, it prevents users to overspend with next purchase. Besides creating a spending limit, users can modify their current amount or remove it. Finie can also give you spending advice based on the budget you have. The other similar is built on top of Finie, while we focused more on family assistant. Besides budgeting as a basic function, every family member could edit common shopping lists, or send notifications to family member. The last project is small but also exciting, I designed a web-app based chatbot to display the conversation between user and Finie.<br>Through out my intern, I used mostly Python as back-end language and Javascript as front-end language. Besides the feature designs as I mentioned above, I also had experience collecting crowd data by using Amazon Mechanical Turk, feeding data to machine learning model. For the back-end part, I used Django, an open source web framework written in Python, to interact with database.'
 };
 
 
