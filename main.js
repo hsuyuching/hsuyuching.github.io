@@ -74,7 +74,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar [language]=\"language\" (setLanguage)=\"setLanguageHandler($event)\"></app-navbar>\n<div style=\"height:60px; width:100%; clear:both;\"></div>\n<app-profile [language]=\"language\"></app-profile>\n<app-jumbotron id=\"work\" section=\"work\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-work class=\"col-md-12 my-4\" name=\"logi\"></app-work>\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"itri\"></app-work> -->\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"clinc\"></app-work> -->\n  </div>\n</div>\n<app-jumbotron id=\"education\" section=\"education\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-education class=\"col-md-6\" name=\"uu\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_ms\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_bs\" [language]=\"language\"></app-education>\n  </div>\n</div>\n<app-jumbotron id=\"projects\" section=\"projects\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-project class=\"col-md-6\" name=\"p4\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p3\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p2\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p1\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p5\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p6\" [language]=\"language\"></app-project>\n  </div>\n</div>\n<app-jumbotron id=\"skills\" section=\"skills\" [language]=\"language\"></app-jumbotron>\n<div class=\"container text-center\">\n  <div class=\"row\">\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"lang\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"library\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"web\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"tool\"></app-skill>\n  </div>\n</div>\n<!-- <app-jumbotron id=\"biography\" section=\"biography\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-biography [language]=\"language\"></app-biography>\n  </div>\n</div> -->\n<app-jumbotron id=\"hobbies\" section=\"hobbies\" [language]=\"language\"></app-jumbotron>\n<app-hobby></app-hobby>\n"
+module.exports = "<app-navbar [language]=\"language\" (setLanguage)=\"setLanguageHandler($event)\"></app-navbar>\n<div style=\"height:60px; width:100%; clear:both;\"></div>\n<app-profile [language]=\"language\"></app-profile>\n<app-jumbotron id=\"work\" section=\"work\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-work class=\"col-md-12 my-4\" name=\"logi\"></app-work>\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"itri\"></app-work> -->\n    <!-- <app-work class=\"col-md-6 my-4\" name=\"clinc\"></app-work> -->\n  </div>\n</div>\n<app-jumbotron id=\"education\" section=\"education\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-education class=\"col-md-6\" name=\"uu\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_ms\" [language]=\"language\"></app-education>\n    <app-education class=\"col-md-6\" name=\"yzu_bs\" [language]=\"language\"></app-education>\n  </div>\n</div>\n<app-jumbotron id=\"projects\" section=\"projects\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-project class=\"col-md-6\" name=\"p_metflix\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p_webBrowser\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p4\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p3\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p2\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p1\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p5\" [language]=\"language\"></app-project>\n    <app-project class=\"col-md-6\" name=\"p6\" [language]=\"language\"></app-project>\n  </div>\n</div>\n<app-jumbotron id=\"skills\" section=\"skills\" [language]=\"language\"></app-jumbotron>\n<div class=\"container text-center\">\n  <div class=\"row\">\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"lang\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"library\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"web\"></app-skill>\n    <app-skill class=\"col-md-3 col-sm-6\" name=\"tool\"></app-skill>\n  </div>\n</div>\n<!-- <app-jumbotron id=\"biography\" section=\"biography\" [language]=\"language\"></app-jumbotron>\n<div class=\"container\">\n  <div class=\"row\">\n    <app-biography [language]=\"language\"></app-biography>\n  </div>\n</div> -->\n<app-jumbotron id=\"hobbies\" section=\"hobbies\" [language]=\"language\"></app-jumbotron>\n<app-hobby></app-hobby>\n"
 
 /***/ }),
 
@@ -290,7 +290,7 @@ module.exports = ".school-logo {\n    height: 100px;\n    margin: 10px;\n}\n/*# 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"bg-container\">\n  <div class=\"card card-block\">\n    <div class=\"card-block\">        \n      <img class=\"school-logo\" [src]=\"educations.get(name).getSchoolLogoPath()\">\n      <h2>{{ educations.get(name).getSchoolName() }}</h2>\n      <h5>{{ educations.get(name).getDegree() }}</h5>\n      <p>{{ educations.get(name).getSchoolLocationString() }}</p>\n      <p>{{ educations.get(name).getSchoolPeriod() }}</p>\n      <p>\n        <span>GPA {{ educations.get(name).getGPA() }} </span>\n        <i class=\"fa fa-question-circle\" placement=\"right\" [ngbTooltip]=\"educations.get(name).getGPAScale()\" aria-hidden=\"true\"></i>\n      </p>\n      <h5>Courses</h5>\n      <ul>\n        <li *ngFor=\"let course of educations.get(name).getCourses()\">{{ course }}</li>\n      </ul>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"bg-container\">\n  <div class=\"card card-block\">\n    <div class=\"card-block\">\n      <img class=\"school-logo\" [src]=\"educations.get(name).getSchoolLogoPath()\">\n      <h2>{{ educations.get(name).getSchoolName() }}</h2>\n      <h5>{{ educations.get(name).getDegree() }}</h5>\n      <p>{{ educations.get(name).getSchoolLocationString() }}</p>\n      <p>{{ educations.get(name).getSchoolPeriod() }}</p>\n      <p>\n        <span>GPA {{ educations.get(name).getGPA() }} </span>\n        <i class=\"fa fa-question-circle\" placement=\"right\" [ngbTooltip]=\"educations.get(name).getGPAScale()\" aria-hidden=\"true\"></i>\n      </p>\n      <!-- <h5>Courses</h5>\n      <ul>\n        <li *ngFor=\"let course of educations.get(name).getCourses()\">{{ course }}</li>\n      </ul> -->\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -326,10 +326,10 @@ var EducationComponent = /** @class */ (function () {
         uu.setSchoolLocation('Salt Lake City', 'UT', 'USA');
         yzu_ms.setSchoolLocation('Taoyuan', '', 'Taiwan');
         yzu_bs.setSchoolLocation('Taoyuan', '', 'Taiwan');
-        uu.setSchoolPeriod('August 2019', 'May 2021');
+        uu.setSchoolPeriod('August 2019', 'Expected in May 2021');
         yzu_ms.setSchoolPeriod('August 2018', 'June 2019');
         yzu_bs.setSchoolPeriod('August 2014', 'June 2018');
-        uu.setGPA(3.62);
+        uu.setGPA(3.74);
         yzu_ms.setGPA(4.0);
         yzu_bs.setGPA(3.77);
         uu.setGPAScale('out of 4.0');
@@ -342,16 +342,16 @@ var EducationComponent = /** @class */ (function () {
             'Web Browser Internals', 'Deep Learning'
         ]);
         yzu_ms.setCourses([
-            'Mobile Big Data Analysis and Machine Learning',
-            'Neural Network',
-            'Deep Learning and its Vision Applications'
+        // 'Mobile Big Data Analysis and Machine Learning',
+        // 'Neural Network',
+        // 'Deep Learning and its Vision Applications'
         ]);
         yzu_bs.setCourses([
-            'Digital Signal Processing',
-            'Operating Systems',
-            'Data Structures',
-            'Computer Architecture',
-            'Digital Signal Processing'
+        // 'Digital Signal Processing',
+        // 'Operating Systems',
+        // 'Data Structures',
+        // 'Computer Architecture',
+        // 'Digital Signal Processing'
         ]);
         this.educations.set('uu', uu);
         this.educations.set('yzu_ms', yzu_ms);
@@ -462,7 +462,7 @@ module.exports = ".img-fluid {\n    height: 1200px;\n    width: 100%;\n}\n/*# so
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ngb-carousel *ngIf=\"images\">\n    <ng-template ngbSlide>\n      <img class=\"img-fluid\" src=\"assets/img/extra1.jpg\" alt=\"Random first slide\">\n      <div class=\"carousel-caption\">\n        <h3>Teaching</h3>\n        <p>I enjoy introducing EE or CS knowledge to others.</p>\n      </div>\n    </ng-template>\n    <ng-template ngbSlide>\n      <img class=\"img-fluid\" src=\"assets/img/extra2.jpg\" alt=\"Random second slide\">\n      <div class=\"carousel-caption\">\n        <h3>Badminton Club</h3>\n        <p>I am the team chaptin of badminton in EE department.</p>\n      </div>\n    </ng-template>\n    <!-- <ng-template ngbSlide>\n      <img class=\"img-fluid\" src=\"assets/img/extra3.jpg\" alt=\"Random third slide\">\n      <div class=\"carousel-caption\">\n        <h3>WMUN</h3>\n        <p>I attended World Model United Nations (WMUN) in Seoul, Korea in March 2015. This event has been a chance of cultural exchange and mutual comprehension with elites around the world. Our topics were mostly politics and economy related.</p>\n      </div>\n    </ng-template> -->\n  </ngb-carousel>"
+module.exports = "<ngb-carousel *ngIf=\"images\">\n    <ng-template ngbSlide>\n      <img class=\"img-fluid\" src=\"assets/img/extra1.jpg\" alt=\"Random first slide\">\n      <div class=\"carousel-caption\">\n        <h3>Teaching</h3>\n        <p>I enjoy introducing EE or CS knowledge to others.</p>\n      </div>\n    </ng-template>\n    <ng-template ngbSlide>\n      <img class=\"img-fluid\" src=\"assets/img/extra2.jpg\" alt=\"Random second slide\">\n      <div class=\"carousel-caption\">\n        <h3>Badminton Club</h3>\n        <p>I am the team chaptin of badminton in EE department.</p>\n      </div>\n    </ng-template>\n  </ngb-carousel>\n"
 
 /***/ }),
 
@@ -484,6 +484,13 @@ var HobbyComponent = /** @class */ (function () {
     function HobbyComponent() {
         this.images = [1, 2, 3].map(function () { return "https://picsum.photos/900/500?random&t=" + Math.random(); });
     }
+    // @Input() name: string;
+    // imagePosts = new Map<string, ImagePost>();
+    // constructor() {
+    //   let imgpost1 = new ImagePost();
+    //   imgpost1.setImageSrc('')
+    //   this.imagePosts.set('imgpost1', imgpost1);
+    // }
     HobbyComponent.prototype.ngOnInit = function () {
     };
     HobbyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -491,12 +498,22 @@ var HobbyComponent = /** @class */ (function () {
             selector: 'app-hobby',
             template: __webpack_require__(/*! ./hobby.component.html */ "./src/app/hobby/hobby.component.html"),
             styles: [__webpack_require__(/*! ./hobby.component.css */ "./src/app/hobby/hobby.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+        })
     ], HobbyComponent);
     return HobbyComponent;
 }());
 
+var ImagePost = /** @class */ (function () {
+    function ImagePost() {
+    }
+    ImagePost.prototype.setImageSrc = function (ImageSrc) {
+        this.ImageSrc = ImageSrc;
+    };
+    ImagePost.prototype.getImageSrc = function () {
+        return this.ImageSrc;
+    };
+    return ImagePost;
+}());
 
 
 /***/ }),
@@ -636,7 +653,7 @@ __webpack_require__.r(__webpack_exports__);
 var NavbarComponent = /** @class */ (function () {
     function NavbarComponent() {
         this.setLanguage = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.nameEnglish = 'Ruby Hsu';
+        this.nameEnglish = 'Yuching Hsu (Ruby)';
         this.nameChinese = '許予晴';
         this.href = [
             '#work',
@@ -717,7 +734,7 @@ module.exports = ".my-link {\n    margin-left: 10px;\n    margin-right: 10px;\n}
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-7\">\n      <div *ngIf=\"language === 'en'\">\n        <h1>{{ shortIntroEnglish }}</h1>\n        <p>{{ introEnglish }}</p>\n      </div>\n      <div *ngIf=\"language === 'ch'\">\n        <h1>{{ nameChinese }}</h1>\n        <h3>{{ shortIntroChinese }}</h3>\n        <p>{{ introChinese }}</p>\n      </div>\n      <p>{{ mobile }}</p>\n      <p>{{ email }}</p>\n      <p>\n        <a *ngFor=\"let link of links\" [class]=\"link['class']\" [href]=\"link['url']\" target=\"_blank\">\n            <i [class]=\"link['iconClass']\" aria-hidden=\"true\"></i>\n        </a>\n      </p>\n\n      <p>\n        <!-- download resume -->\n        <a href=\"assets/YuChingHsuResume.pdf\" target=\"_blank\">\n            <button type=\"button\" class=\"btn btn-danger btn-lg\">\n                <i class=\"fa fa-download fa-1x\" aria-hidden=\"true\"></i>\n                Resume (PDF)\n            </button>\n        </a>\n      </p>\n    </div>\n    <div class=\"col-md-5\">\n      <img class=\"img-thumbnail\" src=\"assets/img/authorRuby.jpg\">\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-7\">\n      <div *ngIf=\"language === 'en'\">\n        <h1>{{ shortIntroEnglish }}</h1>\n        <h5>Actively looking for SDE position</h5>\n        <!-- <p>{{ introEnglish }}</p> -->\n        <p>\n          <br> Hi, I'm a self-motivated quick learner that improve myself a little bit everyday.\n          I have hands-on developing experience including <b>Full Stack</b> application development,\n          <b>Web app</b> development, <b>Image Processing/Computer vision</b>, <b>Data Analysis</b>,\n           and <b>Machine Learning</b>.\n        </p>\n        <p>\n          I have 3 years experience in machine learning (CNN, Faster-RCNN). And I have a few fancy projects,\n          check them out below!\n        </p>\n      </div>\n      <div *ngIf=\"language === 'ch'\">\n        <h1>{{ nameChinese }}</h1>\n        <h3>{{ shortIntroChinese }}</h3>\n        <p>{{ introChinese }}</p>\n      </div>\n      <p>Mobile: {{ mobile }}</p>\n      <p>Email: {{ email }}</p>\n      <p>\n        <a href=\"https://github.com/hsuyuching\">\n          <i class=\"fa fa-github fa-1x\"></i>\n          https://github.com/hsuyuching\n        </a>\n        <br>\n        <a href=\"https://www.linkedin.com/in/yuchinghsu/\">\n          <i class=\"fa fa-linkedin fa-1x\"></i>\n          https://www.linkedin.com/in/yuchinghsu/\n        </a>\n\n        <!-- <a *ngFor=\"let link of links\" [class]=\"link['class']\" [href]=\"link['url']\" target=\"_blank\">\n            <i [class]=\"link['iconClass']\" aria-hidden=\"true\"></i>\n        </a> -->\n      </p>\n\n      <p>\n        <!-- download resume -->\n        <a href=\"assets/YuChingHsuResume.pdf\" target=\"_blank\">\n            <button type=\"button\" class=\"btn btn-danger btn-lg\">\n                <i class=\"fa fa-download fa-1x\" aria-hidden=\"true\"></i>\n                Resume (PDF)\n            </button>\n        </a>\n      </p>\n    </div>\n    <div class=\"col-md-5\">\n      <img class=\"img-thumbnail\" src=\"assets/img/authorRuby.jpg\">\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -740,7 +757,7 @@ var ProfileComponent = /** @class */ (function () {
         this.shortIntroEnglish = 'Software Engineer';
         this.nameEnglish = 'Yu-Ching (Ruby) Hsu\'s website';
         this.shortIntroChinese = '軟體工程師';
-        this.introEnglish = 'Hi, I\'m a self-motivated quick learner with a strong sense of urgency. \
+        this.introEnglish = 'Hi, I\'m a self-motivated quick learner. \
   I have hands-on developing experience include Algorithm, Firmware, Image Processing, and data analysis,\
    as well as root cause analysis skill in mixed HW/SW issues.\
    I have 5 years research experience in computer vision, 2 paper published, 3 years experience in machine learning (CNN, Faster-RCNN).\
@@ -790,7 +807,7 @@ var ProfileComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".project-img {\n    width: 100%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdC9wcm9qZWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0L3Byb2plY3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9qZWN0LWltZyB7XG4gICAgd2lkdGg6IDEwMCU7XG59XG4iXX0= */"
+module.exports = ".project-img {\n    width: 100%;\n}\n.project-description {\n  padding-bottom: 20px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdC9wcm9qZWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0FBQ2Y7QUFDQTtFQUNFLG9CQUFvQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL3Byb2plY3QvcHJvamVjdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2plY3QtaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbn1cbi5wcm9qZWN0LWRlc2NyaXB0aW9uIHtcbiAgcGFkZGluZy1ib3R0b206IDIwcHg7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -801,7 +818,7 @@ module.exports = ".project-img {\n    width: 100%;\n}\n\n/*# sourceMappingURL=da
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div >\n  <img class=\"project-img img-responsive\" [src]=\"projects.get(name).getProjectImgPath()\" alt=\"\">\n  <h3>{{ projects.get(name).getTitle() }}\n    <!-- <p *ngFor=\"let link of projects.get(name).getLinks()\">\n    <a [href]=\"link['link']\" target=\"_blank\">{{ projects.get(name).getTitle() }}  </a>\n    </p> -->\n  </h3>\n\n  <p>{{ projects.get(name).getDescription() }}</p>\n</div>\n"
+module.exports = "<div >\n  <img class=\"project-img img-responsive\" [src]=\"projects.get(name).getProjectImgPath()\" alt=\"\">\n\n  <!-- <h3 *ngIf=\"!projects.get(name).getHasLink()\">{{ projects.get(name).getTitle() }}</h3> -->\n  <h3>{{ projects.get(name).getTitle() }}</h3>\n  <a *ngIf=\"projects.get(name).getHasLink()\" [href]=\"projects.get(name).getLink()\" target=\"_blank\"><h5>Project Link: {{projects.get(name).getLink()}}</h5></a>\n  <p class='project-description'>{{ projects.get(name).getDescription() }}</p>\n</div>\n"
 
 /***/ }),
 
@@ -828,13 +845,27 @@ var ProjectComponent = /** @class */ (function () {
         var p3 = new Project();
         var p2 = new Project();
         var p1 = new Project();
+        var p_metflix = new Project();
+        p_metflix.setProjectImgPath('assets/img/metflix.gif');
+        p_metflix.setTitle("Video Streaming Platform Development");
+        p_metflix.setHasLink(true);
+        p_metflix.setLink("https://ec2-54-69-150-119.us-west-2.compute.amazonaws.com/metflix/login.php");
+        p_metflix.setDescription("Provided streaming service by designing different web end-points including video and profile management. Provided cloud solution on AWS EC2 instance with server hosting through XAMPP. Developed a subscription system with PayPal API to distin- guish available contents to different users. Supported live search system using AJAX to dynamically load the result after query.");
+        this.projects.set('p_metflix', p_metflix);
+        var p_webBrowser = new Project();
+        p_webBrowser.setProjectImgPath('assets/img/webBrowser.gif');
+        p_webBrowser.setTitle("Web Browser Development");
+        p_webBrowser.setHasLink(true);
+        p_webBrowser.setLink("https://github.com/hsuyuching/webbrowserinternals");
+        p_webBrowser.setDescription("Created GUI window by Tkinter and handled URL connection through BSD socket interface. Converted HTML tokens into DOM tree which supports attributes and malformed tags. Enable CSS styling by using inheritance and privilege level to determine the object style. Supported basic JavaScript with DukPy interpreter and allowed scripts to modify page elements.");
+        this.projects.set('p_webBrowser', p_webBrowser);
         p6.setProjectImgPath('assets/img/project6-logo.png');
         p5.setProjectImgPath('assets/img/project5-logo.png');
         p4.setProjectImgPath('assets/img/project4-logo.png');
         p3.setProjectImgPath('assets/img/project3-logo.png');
         p2.setProjectImgPath('assets/img/project2-logo.png');
         p1.setProjectImgPath('assets/img/project1-logo.png');
-        p1.setTitle('Image Quality Analysis Tool');
+        p1.setTitle('Real-time Data Visualization Platform');
         p2.setTitle('Auto Recognition for Elevator Button with CNN');
         p3.setTitle('Paired Face Detection for Multi-Camera');
         p4.setTitle('Missing Migrants Data Visualization');
@@ -846,12 +877,15 @@ var ProjectComponent = /** @class */ (function () {
         p3.setDescription('Besides the technique for human face detection, we added the upper body information to help identify the paired face in multi-camera. With analysis in feature comparison between different color spaces, and the calibration between different cameras, we can improve the accuracy in the detection of pairing face.');
         p2.setDescription('We designed the algorithm, which can localize (with 95.8% accuracy) and recognize (with 100% accuracy) the button with combining of PAC, KBC, TM, CNN and finally, SSIM. With the method, we can strengthen the robot indoor navigation ability.');
         p1.setDescription('Developed Logitech\'s internal analysis tool for image quality team to better control auto focus, auto white balance, auto exposure. Achieved real-time manipulation in video between hardware control and software visualization.');
-        p1.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
-        // p2.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
+        p1.setLink('https://www.youtube.com/embed//IKfHjiEIFts');
+        p2.setLink('https://hsuyuching.github.io/IAENG_IJCS.pdf');
         // p3.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
-        // p4.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
+        p4.setLink('https://hsuyuching.github.io/missing-migrants/');
+        p4.setHasLink(true);
         // p5.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
         // p6.setLinks('https://hsuyuching.github.io/missing-migrants/', 'proj');
+        p1.setHasLink(true);
+        p2.setHasLink(true);
         this.projects.set('p6', p6);
         this.projects.set('p5', p5);
         this.projects.set('p4', p4);
@@ -882,7 +916,7 @@ var ProjectComponent = /** @class */ (function () {
 
 var Project = /** @class */ (function () {
     function Project() {
-        this.links = [];
+        this.hasLink = false;
     }
     Project.prototype.setProjectImgPath = function (projectImgPath) {
         this.projectImgPath = projectImgPath;
@@ -902,14 +936,17 @@ var Project = /** @class */ (function () {
     Project.prototype.getDescription = function () {
         return this.description;
     };
-    Project.prototype.setLinks = function (link, linkName) {
-        this.links.push({
-            'link': link,
-            'linkName': linkName
-        });
+    Project.prototype.setHasLink = function (hasLink) {
+        this.hasLink = hasLink;
     };
-    Project.prototype.getLinks = function () {
-        return this.links;
+    Project.prototype.getHasLink = function () {
+        return this.hasLink;
+    };
+    Project.prototype.setLink = function (link) {
+        this.link = link;
+    };
+    Project.prototype.getLink = function () {
+        return this.link;
     };
     return Project;
 }());
@@ -961,18 +998,18 @@ var SkillComponent = /** @class */ (function () {
         var web = new Skill();
         var tool = new Skill();
         var library = new Skill();
-        lang.setSkillClass('fa fa-code fa-stack-1x text-primary');
-        library.setSkillClass('fa fa-database fa-stack-1x text-primary');
-        web.setSkillClass('fa fa-cloud fa-stack-1x text-primary');
-        tool.setSkillClass('fa fa-wrench fa-stack-1x text-primary');
         lang.setSkillTitle('Languages');
+        lang.setSkillClass('fa fa-code fa-stack-1x text-primary');
+        lang.setSkillItems('Python, C/C++, PHP, Javascript, Java, Matlab, TypeScript, HTML, CSS');
         library.setSkillTitle('DataBase');
-        web.setSkillTitle('Web');
-        tool.setSkillTitle('Tools');
-        lang.setSkillItems('Python, C/C++, Javascript, Java, Matlab');
-        library.setSkillItems('MongoDB');
-        web.setSkillItems('HTML, CSS, D3, AngularJS, Bootstrap');
-        tool.setSkillItems('OpenCV, Keras, Tensorflow, Git, MFC(visual studio), Galago');
+        library.setSkillClass('fa fa-database fa-stack-1x text-primary');
+        library.setSkillItems('MongoDB, MySQL');
+        web.setSkillTitle('Framework');
+        web.setSkillItems('Angular, MFC, Node.js');
+        web.setSkillClass('fa fa-sitemap fa-stack-1x text-primary');
+        tool.setSkillClass('fa fa-wrench fa-stack-1x text-primary');
+        tool.setSkillTitle('Library & Tools');
+        tool.setSkillItems('AWS EC2, D3, OpenCV, Keras, Tensorflow, PyTorch, Git');
         this.skills.set('lang', lang);
         this.skills.set('library', library);
         this.skills.set('web', web);
@@ -1029,7 +1066,7 @@ var Skill = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "img {\n    height: 100px;\n    margin: 0px;\n}\n.leftside {\n  float: left;\n  width: 40%;\n}\n.rightside {\n  float: right;\n  margin-left: auto;\n  margin-top: auto;\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsV0FBVztBQUNmO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsVUFBVTtBQUNaO0FBQ0E7RUFDRSxZQUFZO0VBQ1osaUJBQWlCO0VBQ2pCLGdCQUFnQjtFQUNoQixVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC93b3JrL3dvcmsuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBtYXJnaW46IDBweDtcbn1cbi5sZWZ0c2lkZSB7XG4gIGZsb2F0OiBsZWZ0O1xuICB3aWR0aDogNDAlO1xufVxuLnJpZ2h0c2lkZSB7XG4gIGZsb2F0OiByaWdodDtcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIG1hcmdpbi10b3A6IGF1dG87XG4gIHdpZHRoOiA1MCU7XG59XG4iXX0= */"
+module.exports = "img {\n    height: 100px;\n    margin: 0px;\n}\n.leftside {\n  float: left;\n  width: 40%;\n}\n.rightside img{\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  padding: 0 30px;\n  width: 100%;\n  height: 80%;\n}\n.rightside p,\n.rightside h4{\n  padding: 0 30px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd29yay93b3JrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsV0FBVztBQUNmO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsVUFBVTtBQUNaO0FBQ0E7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YsV0FBVztFQUNYLFdBQVc7QUFDYjtBQUNBOztFQUVFLGVBQWU7QUFDakIiLCJmaWxlIjoic3JjL2FwcC93b3JrL3dvcmsuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZyB7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBtYXJnaW46IDBweDtcbn1cbi5sZWZ0c2lkZSB7XG4gIGZsb2F0OiBsZWZ0O1xuICB3aWR0aDogNDAlO1xufVxuLnJpZ2h0c2lkZSBpbWd7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBtYXJnaW4tbGVmdDogYXV0bztcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICBwYWRkaW5nOiAwIDMwcHg7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDgwJTtcbn1cbi5yaWdodHNpZGUgcCxcbi5yaWdodHNpZGUgaDR7XG4gIHBhZGRpbmc6IDAgMzBweDtcbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -1040,7 +1077,7 @@ module.exports = "img {\n    height: 100px;\n    margin: 0px;\n}\n.leftside {\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n  <div class=\"leftside\">\n    <img [src]=\"works.get(name).getOrgLogoPath()\">\n    <h2>{{ works.get(name).getOrgName() }}</h2>\n    <p>{{ works.get(name).getOrgLocationString() }}</p>\n    <p>{{ works.get(name).getWorkPeriod() }}</p>\n    <p>{{ works.get(name).getDescription() }}</p>\n    <p *ngFor=\"let link of works.get(name).getLinks()\">\n      <a [href]=\"link['link']\" target=\"_blank\">{{ link['linkName'] }}</a>\n    </p>\n  </div>\n  <div class=\"rightside\">\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed//IKfHjiEIFts\" frameborder=\"0\" allowfullscreen></iframe>\n  </div>\n</div>\n\n\n"
+module.exports = "<div class=\"row\">\n  <div class=\"leftside\">\n    <img [src]=\"works.get(name).getOrgLogoPath()\">\n    <h2>{{ works.get(name).getOrgName() }}</h2>\n    <p>{{ works.get(name).getOrgLocationString() }}</p>\n    <p>{{ works.get(name).getWorkPeriod() }}</p>\n    <!-- <ul>{{ works.get(name).getDescription() }}</ul> -->\n    <ul>\n      <li>Developed a real-time data visualization platform to accelerate the development process for image quality tuning with MVC pattern.</li>\n      <li>Extended compatibility of the platform to any Logitect camera by designing a byte-mapping configuration mechanism in firmware.</li>\n      <li>Converted MATLAB code into Python and performed unit tests to verify the both versions.</li>\n      <li>Developed a human face detection algorithm to improve the auto focus.</li>\n    </ul>\n    <!-- <p *ngFor=\"let link of works.get(name).getLinks()\">\n      <a [href]=\"link['link']\" target=\"_blank\">{{ link['linkName'] }}</a>\n    </p> -->\n  </div>\n  <div class=\"rightside\">\n    <h4>Real-time Data Visualization Platform</h4>\n    <p>Language Used: C/C++ <br>\n      Framework: MFC<br>\n      Full demo: <a href=\"https://www.youtube.com/embed//IKfHjiEIFts\">link</a>\n    </p>\n    <img src=\"assets/logiProject.gif\" alt=\"Tool Demo\">\n    <!-- <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed//IKfHjiEIFts\" frameborder=\"0\" allowfullscreen></iframe> -->\n  </div>\n</div>\n\n\n"
 
 /***/ }),
 
@@ -1069,14 +1106,6 @@ var WorkComponent = /** @class */ (function () {
         logi.setDescription(jobDescription['logi']);
         logi.setLinks('https://www.logitech.com/en-us', 'logitech.com');
         this.works.set('logi', logi);
-        // let itri = new Work();
-        // itri.setOrgLogoPath('assets/img/itri-logo.jpg');
-        // itri.setOrgName('Industrial Technology Research Institute (ITRI)');
-        // itri.setOrgLocation('Hsinchu', 'Taiwan', 'R.O.C');
-        // itri.setWorkPeriod('May 2016');
-        // itri.setDescription(jobDescription['itri']);
-        // itri.setLinks('https://www.if.itri.org.tw/', 'if.itri.org.tw');
-        // this.works.set('itri', itri);
     }
     WorkComponent.prototype.ngOnInit = function () {
     };
@@ -1145,7 +1174,10 @@ var Work = /** @class */ (function () {
     return Work;
 }());
 var jobDescription = {
-    'logi': 'Developed Logitech’s internal analysis tool for image quality team to better control auto focus, auto white balance, auto exposure. Achieved real-time manipulation in video between hardware control and software visualization. Researched and developed computer vision algorithms centered around the human face detection.',
+    'logi': '<li>Developed a real-time data visualization platform to accelerate the development process for image quality tuning with MVC pattern.</li>\
+          <li>Extended compatibility of the platform to any Logitect camera by designing a byte-mapping configuration mechanism in firmware.</li>\
+          <li>Converted MATLAB code into Python and performed unit tests to verify the both versions.</li>\
+          <li>Developed a human face detection algorithm to improve the auto focus.</li>',
 };
 
 
